@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5;
+  font-size: 62.5%;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .hero {
-  max-width: 100rem;
+  max-width: 130rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -46,7 +46,7 @@ body {
 
 .hero-section {
   background-color: #fdf2e9;
-  padding: 2rem 0 2em 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .btn:link,
@@ -80,4 +80,34 @@ body {
 .cta-link:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px white;
+}
+
+.delivery-summary {
+  margin-top: 4.8rem;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.delivered-users-info {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.delivered-users-info img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-right: -2rem;
+  border: 2px solid #fdf2e9;
+}
+
+.delivered-summary-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.delivered-summary-text span {
+  font-size: 1.9rem;
+  color: #cf711f;
 }
