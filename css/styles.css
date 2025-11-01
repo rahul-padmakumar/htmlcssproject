@@ -111,3 +111,49 @@ body {
   font-size: 1.9rem;
   color: #cf711f;
 }
+
+.header {
+  height: 9.6rem;
+  background-color: #fdf2e9;
+  padding: 0 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-image {
+  height: 4.8rem;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #555;
+  padding: 0.8rem 1.6rem;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  color: #cf711f;
+}
+
+.btn.nav-cta-button:link,
+.btn.nav-cta-button:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn.nav-cta-button:hover,
+.btn.nav-cta-button:active {
+  background-color: #cf711f;
+}
