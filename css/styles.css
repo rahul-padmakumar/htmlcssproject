@@ -265,3 +265,26 @@ body {
   background-color: #ffe6cc;
   z-index: -1;
 }
+
+.heading-featured {
+  text-align: center;
+  margin: 5.6rem 0 2.4rem 0;
+  font-size: 1.4rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.logos-container img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
