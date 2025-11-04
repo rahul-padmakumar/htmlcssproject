@@ -328,9 +328,15 @@ body {
 
 .meal-card {
   border-radius: 1.4rem;
-  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.075);
   overflow: hidden;
   background-color: #fff;
+  transition: all 0.3s;
+}
+
+.meal-card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-icon {
@@ -414,4 +420,8 @@ strong {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+.diet-card {
+  padding-left: 3.2rem;
 }
