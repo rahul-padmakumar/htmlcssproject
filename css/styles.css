@@ -588,9 +588,20 @@ strong {
 .cta-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 100px;
+  height: 56rem;
   box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.25);
   margin-bottom: 9.6rem;
   border-radius: 11px;
-  background-image: linear-gradient(to top, red, orange);
+  background-image: linear-gradient(to right bottom, #cf711f, #b8651b);
+  overflow: hidden;
+}
+
+.cta-image {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(207, 113, 31, 0.3),
+      rgba(184, 100, 27, 0.3)
+    ),
+    url("../img/eating.jpg");
+  background-position: center;
 }
