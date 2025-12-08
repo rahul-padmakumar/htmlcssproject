@@ -70,6 +70,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center {
   align-items: center;
 }
@@ -676,4 +680,8 @@ strong {
 .cta-grid *:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem hsla(27, 83%, 95%, 0.5);
+}
+
+.footer {
+  padding: 9.6rem 0;
 }
